@@ -1,0 +1,47 @@
+.home-container {
+  background-color: #fce4ec; 
+  border: 3px solid #000; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0px #ff1744, 15px 15px 0px #d500f9; 
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.home-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #d32f2f; 
+  text-shadow: 4px 4px #000;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 22px;
+  color: #333;
+  text-shadow: 2px 2px #ff80ab;
+  line-height: 1.5;
+}
+
+.explore-button {
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffeb3b; 
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 5px 5px #ff5722;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.explore-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 7px 7px #ff1744;
+}
+
